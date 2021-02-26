@@ -29,5 +29,6 @@ def YouTubeMusic(Title, ID):
     system("youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v="+ID)
     Speak("Now Playing, "+Title)
     playsound.playsound(Title+ID+".mp3")
+    system("Exit")
 
-YouTubeMusic(YalgaarT,YalgaarI)
+YouTubeMusic(LiggiT,LiggiI)
